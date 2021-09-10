@@ -1,0 +1,203 @@
+{
+  "author": "Ulises Freitas <ulises.freitas@gmail.com>",
+  "description": "Wait for x seconds, is a simplified way to wait condition to perform actions if the time is reached the actions will be triggered.\n\nHow to:\nAdd this as a condition in your events\nGo to Other conditions search for Wait x seconds.\nSet the time you want to wait as a number.",
+  "extensionNamespace": "",
+  "fullName": "Wait for x seconds",
+  "helpPath": "https://github.com/UlisesFreitas/WaitFor-Wait-for-x-seconds-and-do-actions",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggZD0iTTI3LDRINUMzLjMsNCwyLDUuMywyLDd2MThjMCwxLjcsMS4zLDMsMywzaDQuNGMwLjQtMS44LDEuMi0zLjUsMi40LTVjLTEuMy0xLjYtMi4xLTMuNS0yLjUtNS42QzguNSwxNi45LDgsMTYsOCwxNQ0KCWMwLTEuNywxLjMtMywzLTNoMTBjMS43LDAsMywxLjMsMywzYzAsMS0wLjUsMS45LTEuMiwyLjRjLTAuNCwyLTEuMywzLjktMi41LDUuNmMxLjEsMS41LDEuOSwzLjIsMi40LDVIMjdjMS43LDAsMy0xLjMsMy0zVjcNCglDMzAsNS4zLDI4LjcsNCwyNyw0eiBNNy45LDguNEM3LjksOC41LDcuOCw4LjYsNy43LDguN0M3LjUsOC45LDcuMyw5LDcsOVM2LjUsOC45LDYuMyw4LjdDNi4xLDguNSw2LDguMyw2LDhjMC0wLjMsMC4xLTAuNSwwLjMtMC43DQoJYzAsMCwwLjEtMC4xLDAuMS0wLjFjMC4xLDAsMC4xLTAuMSwwLjItMC4xQzYuNyw3LDYuNyw3LDYuOCw3YzAuMSwwLDAuMywwLDAuNCwwYzAuMSwwLDAuMSwwLDAuMiwwLjFjMC4xLDAsMC4xLDAuMSwwLjIsMC4xDQoJYzAsMCwwLjEsMC4xLDAuMSwwLjFjMC4xLDAuMSwwLjIsMC4yLDAuMiwwLjNDOCw3LjcsOCw3LjksOCw4QzgsOC4xLDgsOC4zLDcuOSw4LjR6IE0xMC43LDguN0MxMC41LDguOSwxMC4zLDksMTAsOQ0KCUM5LjcsOSw5LjUsOC45LDkuMyw4LjdDOS4xLDguNSw5LDguMyw5LDhjMC0wLjEsMC0wLjMsMC4xLTAuNGMwLjEtMC4xLDAuMS0wLjIsMC4yLTAuM2MwLjEtMC4xLDAuMi0wLjIsMC4zLTAuMg0KCUMxMCw2LjksMTAuNCw3LDEwLjcsNy4zYzAuMSwwLjEsMC4yLDAuMiwwLjIsMC4zQzExLDcuNywxMSw3LjksMTEsOEMxMSw4LjMsMTAuOSw4LjUsMTAuNyw4Ljd6IE0xMy45LDguNGMtMC4xLDAuMS0wLjEsMC4yLTAuMiwwLjMNCglDMTMuNSw4LjksMTMuMyw5LDEzLDljLTAuMSwwLTAuMywwLTAuNC0wLjFjLTAuMS0wLjEtMC4yLTAuMS0wLjMtMC4yYy0wLjEtMC4xLTAuMi0wLjItMC4yLTAuM0MxMiw4LjMsMTIsOC4xLDEyLDgNCgljMC0wLjEsMC0wLjMsMC4xLTAuNGMwLjEtMC4xLDAuMS0wLjIsMC4yLTAuM2MwLjQtMC40LDEtMC40LDEuNCwwYzAuMSwwLjEsMC4yLDAuMiwwLjIsMC4zQzE0LDcuNywxNCw3LjksMTQsOA0KCUMxNCw4LjEsMTQsOC4zLDEzLjksOC40eiIvPg0KPHBhdGggZD0iTTIxLDMwTDIxLDMwYy0wLjMtMi43LTEuNS01LjItMy41LTdjMS45LTEuOCwzLjEtNC4zLDMuNC03SDIxYzAuNiwwLDEtMC40LDEtMXMtMC40LTEtMS0xSDExYy0wLjYsMC0xLDAuNC0xLDFzMC40LDEsMSwxDQoJaDAuMWMwLjIsMi43LDEuNSw1LjIsMy40LDdjLTEuOSwxLjgtMy4xLDQuMy0zLjQsN0gxMWMtMC42LDAtMSwwLjQtMSwxczAuNCwxLDEsMWgxMGMwLjYsMCwxLTAuNCwxLTFTMjEuNiwzMCwyMSwzMHoiLz4NCjwvc3ZnPg0K",
+  "name": "WaitFor",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Applications and Programming/Applications and Programming_app_application_wait_loading_sand_clock.svg",
+  "shortDescription": "Wait x seconds to do actions",
+  "version": "1.0.0",
+  "tags": [
+    "Wait"
+  ],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Wait x time in seconds to do the next actions",
+      "fullName": "Wait time in seconds",
+      "functionType": "Condition",
+      "name": "WaitFor",
+      "private": false,
+      "sentence": "Wait for: _PARAM1_ seconds.",
+      "events": [
+        {
+          "disabled": false,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "runtimeScene.getGame().getVariables().get(\"__Wait__TimerName\").setNumber(gdjs.makeUuid()+1);",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"__WaitFor__\" + GlobalVariableString(__Wait_TimerName)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "player",
+                "GetArgumentAsNumber(\"TimeToWait\")",
+                "\"__WaitFor__\" + GlobalVariableString(__Wait__TimerName)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"__WaitFor__\" + GlobalVariableString(__Wait_TimerName)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetReturnBoolean"
+              },
+              "parameters": [
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "To the reviewer: If this can not be done just delete the next events. I really don't know if a timer can be deleted forever in runtime.",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Intent to Delete forever if paused\nBut I'm not sure if this delete the timer from memory or not, maybe a better mind that mine can solve this.",
+          "comment2": ""
+        },
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TimerPaused"
+              },
+              "parameters": [
+                "",
+                "\"__WaitFor__\" + GetArgumentAsString(\"TimerName\")"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"__WaitFor__\" + GetArgumentAsString(\"TimerName\")"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Wait time in seconds",
+          "longDescription": "",
+          "name": "TimeToWait",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": []
+}

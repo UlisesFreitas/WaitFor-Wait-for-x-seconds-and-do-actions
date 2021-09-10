@@ -1,0 +1,662 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.waitfor",
+    "pixelsRounding": true,
+    "projectUuid": "5f676467-107b-4b79-990a-515706de2f3a",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "WaitFor",
+    "author": "Ulises Freitas",
+    "windowWidth": 320,
+    "windowHeight": 192,
+    "latestCompilationDirectory": "",
+    "maxFPS": 0,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "ShowMeHideMe-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ShowMeHideMe-1.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "GameScene",
+      "name": "GameScene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 8,
+        "gridHeight": 8,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 1.3333333007812502,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "ShowMeHideMe",
+          "persistentUuid": "18024c7b-0920-4150-b146-875083ed377d",
+          "width": 32,
+          "x": 16,
+          "y": 24,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ShowMeHideMeText",
+          "persistentUuid": "efdab87d-3bb5-4b16-a199-e61dc85e7bce",
+          "width": 0,
+          "x": 18,
+          "y": 12,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "RotateMe",
+          "persistentUuid": "b5aa0105-886d-4ecf-bf04-42632a6a7e7a",
+          "width": 32,
+          "x": 16,
+          "y": 104,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RotateText",
+          "persistentUuid": "5ce7f3c6-ade9-4e07-b9f5-f397d1f73340",
+          "width": 0,
+          "x": 16,
+          "y": 80,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "RotateMe",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "ShowMeHideMe",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ShowMeHideMe-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ShowMeHideMe",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "ShowMeHideMe",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ShowMeHideMe-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "RotateText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Rotate 360 after 10 seconds",
+          "font": "",
+          "characterSize": 10,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ShowMeHideMeText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Hide after 3 seconds and shows after 6 seconds.",
+          "font": "",
+          "characterSize": 10,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "ShowMeHideMe",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "WaitFor::WaitFor"
+              },
+              "parameters": [
+                "",
+                "3",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "ShowMeHideMe"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "WaitFor::WaitFor"
+              },
+              "parameters": [
+                "",
+                "6",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "ShowMeHideMe",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "WaitFor::WaitFor"
+              },
+              "parameters": [
+                "",
+                "10",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Rotate"
+              },
+              "parameters": [
+                "RotateMe",
+                "360",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 32,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "Ulises Freitas <ulises.freitas@gmail.com>",
+      "description": "Wait for x seconds, is a simplified way to wait condition to perform actions if the time is reached the actions will be triggered.\n\nHow to:\nAdd this as a condition in your events\nGo to Other conditions search for Wait x seconds.\nSet the time you want to wait as a number.",
+      "extensionNamespace": "",
+      "fullName": "Wait for x seconds",
+      "helpPath": "https://github.com/UlisesFreitas/WaitFor-Wait-for-x-seconds-and-do-actions",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggZD0iTTI3LDRINUMzLjMsNCwyLDUuMywyLDd2MThjMCwxLjcsMS4zLDMsMywzaDQuNGMwLjQtMS44LDEuMi0zLjUsMi40LTVjLTEuMy0xLjYtMi4xLTMuNS0yLjUtNS42QzguNSwxNi45LDgsMTYsOCwxNQ0KCWMwLTEuNywxLjMtMywzLTNoMTBjMS43LDAsMywxLjMsMywzYzAsMS0wLjUsMS45LTEuMiwyLjRjLTAuNCwyLTEuMywzLjktMi41LDUuNmMxLjEsMS41LDEuOSwzLjIsMi40LDVIMjdjMS43LDAsMy0xLjMsMy0zVjcNCglDMzAsNS4zLDI4LjcsNCwyNyw0eiBNNy45LDguNEM3LjksOC41LDcuOCw4LjYsNy43LDguN0M3LjUsOC45LDcuMyw5LDcsOVM2LjUsOC45LDYuMyw4LjdDNi4xLDguNSw2LDguMyw2LDhjMC0wLjMsMC4xLTAuNSwwLjMtMC43DQoJYzAsMCwwLjEtMC4xLDAuMS0wLjFjMC4xLDAsMC4xLTAuMSwwLjItMC4xQzYuNyw3LDYuNyw3LDYuOCw3YzAuMSwwLDAuMywwLDAuNCwwYzAuMSwwLDAuMSwwLDAuMiwwLjFjMC4xLDAsMC4xLDAuMSwwLjIsMC4xDQoJYzAsMCwwLjEsMC4xLDAuMSwwLjFjMC4xLDAuMSwwLjIsMC4yLDAuMiwwLjNDOCw3LjcsOCw3LjksOCw4QzgsOC4xLDgsOC4zLDcuOSw4LjR6IE0xMC43LDguN0MxMC41LDguOSwxMC4zLDksMTAsOQ0KCUM5LjcsOSw5LjUsOC45LDkuMyw4LjdDOS4xLDguNSw5LDguMyw5LDhjMC0wLjEsMC0wLjMsMC4xLTAuNGMwLjEtMC4xLDAuMS0wLjIsMC4yLTAuM2MwLjEtMC4xLDAuMi0wLjIsMC4zLTAuMg0KCUMxMCw2LjksMTAuNCw3LDEwLjcsNy4zYzAuMSwwLjEsMC4yLDAuMiwwLjIsMC4zQzExLDcuNywxMSw3LjksMTEsOEMxMSw4LjMsMTAuOSw4LjUsMTAuNyw4Ljd6IE0xMy45LDguNGMtMC4xLDAuMS0wLjEsMC4yLTAuMiwwLjMNCglDMTMuNSw4LjksMTMuMyw5LDEzLDljLTAuMSwwLTAuMywwLTAuNC0wLjFjLTAuMS0wLjEtMC4yLTAuMS0wLjMtMC4yYy0wLjEtMC4xLTAuMi0wLjItMC4yLTAuM0MxMiw4LjMsMTIsOC4xLDEyLDgNCgljMC0wLjEsMC0wLjMsMC4xLTAuNGMwLjEtMC4xLDAuMS0wLjIsMC4yLTAuM2MwLjQtMC40LDEtMC40LDEuNCwwYzAuMSwwLjEsMC4yLDAuMiwwLjIsMC4zQzE0LDcuNywxNCw3LjksMTQsOA0KCUMxNCw4LjEsMTQsOC4zLDEzLjksOC40eiIvPg0KPHBhdGggZD0iTTIxLDMwTDIxLDMwYy0wLjMtMi43LTEuNS01LjItMy41LTdjMS45LTEuOCwzLjEtNC4zLDMuNC03SDIxYzAuNiwwLDEtMC40LDEtMXMtMC40LTEtMS0xSDExYy0wLjYsMC0xLDAuNC0xLDFzMC40LDEsMSwxDQoJaDAuMWMwLjIsMi43LDEuNSw1LjIsMy40LDdjLTEuOSwxLjgtMy4xLDQuMy0zLjQsN0gxMWMtMC42LDAtMSwwLjQtMSwxczAuNCwxLDEsMWgxMGMwLjYsMCwxLTAuNCwxLTFTMjEuNiwzMCwyMSwzMHoiLz4NCjwvc3ZnPg0K",
+      "name": "WaitFor",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Applications and Programming/Applications and Programming_app_application_wait_loading_sand_clock.svg",
+      "shortDescription": "Wait x seconds to do actions",
+      "version": "1.0.0",
+      "tags": [
+        "Wait"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Wait x time in seconds to do the next actions",
+          "fullName": "Wait time in seconds",
+          "functionType": "Condition",
+          "name": "WaitFor",
+          "private": false,
+          "sentence": "Wait for: _PARAM1_ seconds.",
+          "events": [
+            {
+              "disabled": false,
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "runtimeScene.getGame().getVariables().get(\"__Wait__TimerName\").setNumber(gdjs.makeUuid()+1);",
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"__WaitFor__\" + GlobalVariableString(__Wait_TimerName)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "player",
+                    "GetArgumentAsNumber(\"TimeToWait\")",
+                    "\"__WaitFor__\" + GlobalVariableString(__Wait__TimerName)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"__WaitFor__\" + GlobalVariableString(__Wait_TimerName)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 35,
+                "g": 166,
+                "r": 245,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "To the reviewer: If this can not be done just delete the next events. I really don't know if a timer can be deleted forever in runtime.",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Intent to Delete forever if paused\nBut I'm not sure if this delete the timer from memory or not, maybe a better mind that mine can solve this.",
+              "comment2": ""
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TimerPaused"
+                  },
+                  "parameters": [
+                    "",
+                    "\"__WaitFor__\" + GetArgumentAsString(\"TimerName\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"__WaitFor__\" + GetArgumentAsString(\"TimerName\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Wait time in seconds",
+              "longDescription": "",
+              "name": "TimeToWait",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
