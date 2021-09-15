@@ -91,7 +91,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.3333333007812502,
+        "zoomFactor": 2.3833176757812495,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -213,7 +213,7 @@
           ],
           "animations": [
             {
-              "name": "ShowMeHideMe",
+              "name": "FlashMe",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -253,7 +253,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "ShowMeHideMe",
+              "name": "RotateMe",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1327,68 +1327,6 @@
                   },
                   "parameters": [
                     "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 35,
-                "g": 166,
-                "r": 245,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "To the reviewer: If this can not be done just delete the next events. I really don't know if a timer can be deleted forever in runtime.",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Intent to Delete forever if paused\nBut I'm not sure if this delete the timer from memory or not, maybe a better mind that mine can solve this.",
-              "comment2": ""
-            },
-            {
-              "disabled": true,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TimerPaused"
-                  },
-                  "parameters": [
-                    "",
-                    "\"__WaitFor__\" + GetArgumentAsString(\"TimerName\")"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "RemoveTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"__WaitFor__\" + GetArgumentAsString(\"TimerName\")"
                   ],
                   "subInstructions": []
                 }
